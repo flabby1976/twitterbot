@@ -11,7 +11,8 @@ import logging.handlers
 from Queue import Queue
 from threading import Thread
 
-LOG_FILENAME = '/var/log/twitterstream/twitterstream-'+datetime.now().strftime("%d:%b:%Y")+'.log'
+#LOG_FILENAME = '/var/log/twitterstream/twitterstream-'+datetime.now().strftime("%d:%b:%Y")+'.log'
+LOG_FILENAME = '/var/log/twitterstream/twitterstream.log'
 
 # Set up a specific logger with our desired output level
 my_logger = logging.getLogger(__name__)
